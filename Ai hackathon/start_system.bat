@@ -56,6 +56,8 @@ if %errorlevel% neq 0 (
 goto START_DASHBOARD
 
 :START_DASHBOARD
+echo Installing Python dependencies...
+pip install -r requirements.txt
 echo.
 echo [3/3] Starting Dashboard...
 cd rul-dashboard
@@ -87,3 +89,4 @@ goto MENU
 
 :EXIT
 exit /b
+
