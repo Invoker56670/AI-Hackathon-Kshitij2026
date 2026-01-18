@@ -1,0 +1,8 @@
+Predict RUL: Accurately predict the "Remaining Useful Life" (Time to Failure) of
+the engine.
+Calculate Health Score: Convert that prediction into a visible "Health
+Percentage" (0% = Dead, 100% = New).
+Visualize: Display this on a simple Dashboard/UI.
+Task: Use the FD001 file (train_FD001.txt for training) to build your model.
+You must run your model on the
+test_FD001.txt file and show the result.
